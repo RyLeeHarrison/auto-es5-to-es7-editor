@@ -1,0 +1,38 @@
+{
+  "name": "auto-es5-to-es7-editor",
+  "version": "1.0.0",
+  "author": "RyLee Harrison",
+  "description": "Update ES5 to ES6/ES7 automaticly.",
+  "keywords": [
+    "es7"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build&&gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyleeHarrison/auto-es5-to-es7-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyleeHarrison/auto-es5-to-es7-editor/issues"
+  },
+  "dependencies": {
+    "codemirror": "5.39.0",
+    "lebab": "^2.7.7",
+    "react": "16.4.1",
+    "react-codemirror2": "5.0.4",
+    "react-dom": "16.4.1",
+    "react-scripts": "1.1.4",
+    "react-split-pane": "0.1.81"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "homepage": "./"
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Inconsolata', monospace;
+}
+
+.CodeMirror {
+	height: 100%;
+    font-family: 'Inconsolata', monospace !important;
+}
+
+.container {
+	height: 100%;
+	min-height: calc(100vh - 60px);
+	position: fixed;
+	width: 100%;
+	background: #3D4B56;
+}
+
+.react-codemirror2 {
+	width: 100%;
+}
+
+.SplitPane {
+	width: 100vw;
+}
+
+.Pane1,
+.Pane2 {
+    display: flex;
+    overflow: scroll;
+    background: #1d2427;
+    height: calc(100% - 120px);
+    flex: 0;
+}
+
+.Resizer {
+    height: 100vh;
+    min-width: 2px;
+    background: #292a2bfc;
+    cursor: col-resize;
+}
+
+.Topbar {
+	height: 60px;
+    width: 100vw;
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	background: #344049;
+	color: #fff
+}
+.container {
+	padding-top: 60px;
+}
+
+.logo {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff
+}
